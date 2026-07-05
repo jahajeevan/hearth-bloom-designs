@@ -86,10 +86,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Maison Vivant — Warm luxury interior design for families" },
       { name: "description", content: "Family-led interior design studio crafting warm, personalized homes. Complete interiors, kitchens, bedrooms and renovations with a magazine-worthy finish." },
       { name: "author", content: "Maison Vivant" },
-      { property: "og:title", content: "Maison Vivant — Homes that tell your story" },
-      { property: "og:description", content: "Personalized interior designs crafted for comfort, beauty, and everyday living." },
+      { property: "og:title", content: "Maison Vivant — Warm luxury interior design for families" },
+      { property: "og:description", content: "Family-led interior design studio crafting warm, personalized homes. Complete interiors, kitchens, bedrooms and renovations with a magazine-worthy finish." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Maison Vivant — Warm luxury interior design for families" },
+      { name: "twitter:description", content: "Family-led interior design studio crafting warm, personalized homes. Complete interiors, kitchens, bedrooms and renovations with a magazine-worthy finish." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/78277764-890e-47ee-8ea9-94f43c454c30/id-preview-84a399cb--e95c16c1-3081-42d8-b739-86600056a71f.lovable.app-1783255014945.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/78277764-890e-47ee-8ea9-94f43c454c30/id-preview-84a399cb--e95c16c1-3081-42d8-b739-86600056a71f.lovable.app-1783255014945.png" },
     ],
     links: [
       {
